@@ -33,7 +33,7 @@ export default function Quiz() {
           timeout={10_000}
           onTimeout={() => handleSelectAnswer(null)}
         />
-        Í<h2>{QUESTIONS[activeQuestionIndex].text}</h2>
+        <h2>{QUESTIONS[activeQuestionIndex].text}</h2>
         <ul id="answers">
           {shuffledAnswers.map((answer) => (
             <li key={answer} className="answer">
