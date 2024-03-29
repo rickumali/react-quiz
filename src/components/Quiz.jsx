@@ -42,7 +42,7 @@ export default function Quiz() {
     return (
       <div id="summary">
         <img src={quizCompleteImg} alt="Quiz Complete" />
-        <h2>Quick Completed!</h2>
+        <h2>Quiz Completed!</h2>
       </div>
     );
   }
